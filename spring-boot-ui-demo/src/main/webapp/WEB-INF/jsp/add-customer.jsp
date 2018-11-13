@@ -30,7 +30,7 @@
 				<span class="icon-bar"></span> <span class="icon-bar"></span>
 			</button>
 			<div class="navbar-header pull-left">
-				<a href="index.html" class="navbar-brand"> <small> <i
+				<a href="/dashboard" class="navbar-brand"> <small> <i
 						class="fa fa-leaf"></i> Customer Panel
 				</small>
 				</a>
@@ -76,7 +76,7 @@
 		</script>
 
 		<div id="sidebar"
-			class="sidebar                  responsive                    ace-save-state">
+			class="sidebar responsive ace-save-state">
 			<script type="text/javascript">
 				try {
 					ace.settings.loadState('sidebar')
@@ -88,13 +88,14 @@
 						class="menu-icon fa fa-tachometer"></i> <span class="menu-text">
 							Dashboard </span>
 				</a> <b class="arrow"></b></li>
+
 				<li class=""><a href="#" class="dropdown-toggle"> <i
-						class="menu-icon fa fa-pencil-square-o"></i> <span
-						class="menu-text"> Forms </span> <b class="arrow fa fa-angle-down"></b>
+						class="menu-icon fa fa-caret-right"></i> <span class="menu-text">
+							Customer </span> <b class="arrow fa fa-angle-down"></b>
 				</a> <b class="arrow"></b>
 
 					<ul class="submenu">
-						<li class=""><a href="/login"> <i
+						<li class=""><a href="/customer"> <i
 								class="menu-icon fa fa-caret-right"></i> Add Customer
 						</a> <b class="arrow"></b></li>
 					</ul></li>
@@ -112,7 +113,7 @@
 				<div class="breadcrumbs ace-save-state" id="breadcrumbs">
 					<ul class="breadcrumb">
 						<li><i class="ace-icon fa fa-home home-icon"></i> <a
-							href="/login">Home</a></li>
+							href="/dashboard">Home</a></li>
 						<li class="active">Add Customer</li>
 					</ul>
 					<!-- /.breadcrumb -->
@@ -234,7 +235,7 @@
 					</div>
 				</div>
 			</div>
-
+</div>
 			<div class="footer">
 				<div class="footer-inner">
 					<div class="footer-content">

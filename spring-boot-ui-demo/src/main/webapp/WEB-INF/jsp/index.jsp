@@ -30,7 +30,7 @@
 				<span class="icon-bar"></span> <span class="icon-bar"></span>
 			</button>
 			<div class="navbar-header pull-left">
-				<a href="index.html" class="navbar-brand"> <small> <i
+				<a href="/dashboard" class="navbar-brand"> <small> <i
 						class="fa fa-leaf"></i> Customer Panel
 				</small>
 				</a>
@@ -88,16 +88,37 @@
 						class="menu-icon fa fa-tachometer"></i> <span class="menu-text">
 							Dashboard </span>
 				</a> <b class="arrow"></b></li>
+				
 				<li class=""><a href="#" class="dropdown-toggle"> <i
-						class="menu-icon fa fa-pencil-square-o"></i> <span
-						class="menu-text"> Forms </span> <b class="arrow fa fa-angle-down"></b>
+						class="menu-icon fa fa-caret-right"></i> <span
+						class="menu-text"> Customer </span> <b class="arrow fa fa-angle-down"></b>
 				</a> <b class="arrow"></b>
 
 					<ul class="submenu">
-						<li class=""><a href="/login"> <i
+						<li class=""><a href="/customer"> <i
 								class="menu-icon fa fa-caret-right"></i> Add Customer
 						</a> <b class="arrow"></b></li>
 					</ul></li>
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-caret-right"></i>
+							<span class="menu-text"> Vendor </span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="/vendor">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Add Vendor
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
 			</ul>
 			<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
 				<i id="sidebar-toggle-icon"
